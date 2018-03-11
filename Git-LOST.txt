@@ -1,16 +1,23 @@
 GRRRRRRRRRR!!!
-So... i think i finallt got that crap!!!!
+So... i think i finally got that crap!!!!
 
 
 Let's Go:
 
--	
+- 1
+First, you’ll need to sign up for an account on *GitHub.com*. It’s as simple as...
+~https://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/
+
+You might as well keep going! do the the section --> "Creating Your Online Repository" 
+
+- 2	
+From your remote box;
 Generate SSH key using ssh-keygen -t rsa -b 2048 -C "your_email@foo.com".
 
 Copy the output of cat id_rsa.pub
-Paste the above copied outpur into your Github profile -> Settings -> SSH and GPG Keys -> Add new SSH key.
+Paste the above copied output into your Github profile -> Settings -> SSH and GPG Keys -> Add new SSH key.
 
--
+- 2b
 make sure you have named the "public key" and "private key" files properly; 
 precisely ----> "id_rsa" and "id_rsa.pub"  <----- 
 
