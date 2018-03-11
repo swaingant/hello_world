@@ -44,3 +44,20 @@ Comprobando la conectividad… hecho.
 ~https://readwrite.com/2013/10/02/github-for-beginners-part-2/
 ~https://services.github.com/on-demand/github-cli/clone-repo-cli
 
+- 4
+Eyes Closed!!
+
+620  cd hello_world/
+621  git remote -v
+622  ls -lh
+
+623  git status
+624  nano Git-LOST.txt
+626  git status
+627  git add *
+628  git status
+629  git commit -m "Lets Go PUTAS"
+632  git push
+633  git status
+
+
