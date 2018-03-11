@@ -6,8 +6,20 @@ Let's Go:
 
 -	
 Generate SSH key using ssh-keygen -t rsa -b 2048 -C "your_email@foo.com".
-Copy the output of cat id_rsa.pub
-Paste the above copied outpur into your Github profile -> Settings ->
-SSH and GPG Keys -> Add new SSH key.
 
+Copy the output of cat id_rsa.pub
+Paste the above copied outpur into your Github profile -> Settings -> SSH and GPG Keys -> Add new SSH key.
+
+-
+make sure you have named the "public key" and "private key" files properly; 
+precisely ----> "id_rsa" and "id_rsa.pub"  <----- 
+
+Restart your terminal ( bash supported) and try to clone again
+
+if you have the write access to the repo, you should be good to go after these changes.
+Talking from experience (after spending an hour), 
+I could not find any info on any forum that stated that we have to explicitly keep the name of the private and public file as mentioned above.
+Happy coding!
+
+-
 
