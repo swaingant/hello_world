@@ -1,0 +1,13 @@
+GRRRRRRRRRR!!!
+So... i think i finallt got that crap!!!!
+
+
+Let's Go:
+
+-	
+Generate SSH key using ssh-keygen -t rsa -b 2048 -C "your_email@foo.com".
+Copy the output of cat id_rsa.pub
+Paste the above copied outpur into your Github profile -> Settings ->
+SSH and GPG Keys -> Add new SSH key.
+
+
