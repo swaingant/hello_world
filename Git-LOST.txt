@@ -61,3 +61,39 @@ Eyes Closed!!
 633  git status
 
 
+
+~~~~~ troubleshot  ~~~~~~
+
+- 1
+to Un-Add a file:
+$ git rm --cached trash2.txt
+
+
+- 2
+to Un-Add a Repo (i guess start over)
+
+this worked for me:
+A) remove all origins
+$ git remote rm origin  
+
+B) check all has been removed :
+$ git remote -v  
+
+C) add new origin master
+git remote add origin blahblahblah
+
+- 3
+** i dont know what syntax to swap here...
+
+For me I had to set what host to use what SSH key. In your local machine SSH folder, usually under ~/.ssh 
+create the file ---> config
+
+~/.ssh/$ nano config
+and add the following with your git Host, HostName, and ssh IdentityFile (your ssh private key file path):
+
+Host gitlab.example.com
+    HostName gitlab.example.com
+    IdentityFile /home/YOURUSERNAME/.ssh/pooky123_rsa
+
+~meh
+
