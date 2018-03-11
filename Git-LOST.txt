@@ -28,5 +28,19 @@ Talking from experience (after spending an hour),
 I could not find any info on any forum that stated that we have to explicitly keep the name of the private and public file as mentioned above.
 Happy coding!
 
--
+- 3
+Now its time to Clone-down your Repo (from Github to your Remote box)
+
+
+$ git clone git@github.com:swaingant/hello_world.git
+Clonar en «hello_world»...
+The authenticity of host 'github.com (192.30.253.113)' can't be established.
+RSA key fingerprint is SHA256:nThxxxxxxxxxxxxxxxxx8.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'github.com,192.30.253.113' (RSA) to the list of known hosts.
+warning: Parece que ha clonado un repositorio vacío.
+Comprobando la conectividad… hecho.
+
+~https://readwrite.com/2013/10/02/github-for-beginners-part-2/
+~https://services.github.com/on-demand/github-cli/clone-repo-cli
 
