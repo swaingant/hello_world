@@ -60,7 +60,7 @@ Eyes Closed!!
 632  git push
 633  git status
 
-
+~http://rogerdudler.github.io/git-guide/http://rogerdudler.github.io/git-guide/
 
 ~~~~~ troubleshot  ~~~~~~
 
