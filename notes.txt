@@ -1,0 +1,328 @@
+**** * * ** *** **** ****
+Start - RUN - smb:/      ; from the knoppix machine will get you on the browsing network.
+
+ifconfig eth0 down
+ifconfig eth0 up
+
+route add default gw 192.168.0.1 eth0
+** * * * * * * * ** * * * * ** **
+
+From a knoppix client:
+mount -o username=batman,password=xxxxxx //linux400sc/batman /ramdisk/home/knoppix/just/
+
+From NLD:
+mount -t smbfs -o username=alexanderseow,password=A13Swc //explorer-00/Data /home/alexanderseow/WinXP
+
+Sweet!!
+i loaded knoppix on a "broken" machine,
+mounted over to the Batcave folder(batman folder,or Whatever directory i choose),
+and now copied the important data over!!
+
+btw:  it appears that you have to know the name of the Destination server Prior to...
+** * ** * * * ** * * * ** *
+
+Remote Desktop Connection DOES work from Knoppix CD!!  Use the GUI. (not the vncviewer from shell prompt)
+
+You know how you cant Not share a Folder unless its under YOUR home directory?? Well, make a symbolic link of the desired forlder, and put THAt in your hom
+e folder. Then Share the Link!!  = ]
+**  ** * * * * * * * * *
+
+Justin Notes:
+
+Copy Data CD:
+dd if=/dev/hdc of=/home/batcave/crunch/sentitem.iso
+(dd if=/dev/cdrecorder of=/home/batcave/iso/test.iso)
+(eject /dev/cdrecorder)
+
+(i used K3b for the next step which ran the cmd for me)
+/usr/bin/cdrecord -v gracetime=2 dev=0,0,0 speed=4 driveropts=burnfree -eject -dao -data /home/batcave/crunch/sentitem.iso
+* * * ** *  * * * ** * * * **
+
+Mount a Jumpdrive (and maybe a camera etc, as long as linux already detects it)
+
+mount /dev/sda1 suse9/
+
+Tada! Thats it!
+
+*** * * **** **** * **** **** ***
+
+        WEB SITES
+
+>>I am getting a Xine-Error: No Demux Plugin error
+>>from Kaffine.
+>>
+>>Sigh.
+>>
+> Use mozilla, mplayer, the win32codecs and the mplayerplug-in from
+> http://packman.links2linux.org/index.php4?action=cat&cat=1
+> It works perfectly :-)
+--------------------
+
+Xine
+http://cambuca.ldhs.cetuc.puc-rio.br/xine/
+Make sure the DMA is enabled for your DVD-ROM, otherwise playback will be 'jumpy'.
+# hdparm -d1 /dev/cdrom
+
+ln -sf /dev/hdc /dev/cdrom
+ln -sf /dev/cdrom /dev/dvd
+hdparm -d1 /dev/cdrom
+------------------------
+
+Portscan
+nmap -sS -O 192.168.1.* |less
+-----------------------
+http://rpm.pbone.net/
+
+*** * * **** **** * **** **** ***
+
+
+(13:43:25) turtlesrfree98: next do this once you find the package name/version: rpm -ql gaim | more  A trick to help search for specific files that locate
+can't becuase the slocate database is not current (like after a package install) is: rpm -ql gaim|grep binich will show you the path to the executables...
+ Wh
+rpm -qa|grep gaim
+(13:44:12) turtlesrfree98: rpm -ql gaim|grep bin
+
+> ok most of the time when I download a program it
+> does not come as a .rpm and I usually end up doing a
+> ./make-install or what ever the install txt file
+> tells me to do. Is there a way to make the tar ball
+> into a .rpm so yast can install it? I KNOW there
+> has got to be a better way unfortunately I'm too
+> much
+> of a noob to know what that is.
+>
+>  rpmbuild -ta {file}.tar.gz
+>
+>  rpmbuild comes with the SuSE distro
+
+***********************************
+
+mount an ISO:
+mount -t iso9660 /home/batman102/bin/eDir_88_SP2_Linux.iso /home/batman102/bin/Children_fair -o loop
+
+************************************
+
+switch to init 3, then run this command to fix your
+video:
+sax2
+
+This command can also give you clues on your video
+hardware:
+# lspci -v |grep VGA
+(Also, sometimes its better to use the generic VESA setting at the correct resolution for you LCD
+instead.)
+
+Good command for fixing you Sound (if you lucky)
+# alsaconf
+
+**************************
+
+Preferred ubuntu package manager:
+apt-get install synaptic
+
+apt-get update
+
+apt-get install avast (antivrus program?)
+
+Repository list is stored here:
+/etc/apt/sources.list
+
+Aww Yeah!!
+
+sudo su   (nice littel trick with LiveCDs)
+
+**********************
+ktorrent:
+    WOW
+    right ON the money!!
+   
+    i renamed:
+    ~/.kde/share/apps/ktorrent
+    and
+    ~/.kde/share/config/ktorrentrc
+
+********************************
+
+Graceful BoOt OFF:
+sudo pkill -HUP -U baduser,usertokick,anotherrogueuser
+
+
+Argh, this *only* be used as the absolutely last resort if every other way
+of terminating a process has failed. It doesn't leave the killed
+process any chance at all to clean up properly behind it, and so
+maximizes your chance for data loss, temporary files left lying
+around, locked or damaged resources, annoyed users and general unpleasantness:
+ 1. As root
+ 2. su their-username
+ 3. kill -9 -1
+
+***********************
+
+ Howto copy Bootable USB Flash drive (image) to a blank USB drive:
+
+First, Pop in the Customized Flash Drive, 
+Then, find out which device is your USB by --> sudo fdisk -l  (in this example, it's sdb)
+
+then run:
+sudo dd if=/dev/sdb of=usb-image.iso
+
+Then swap out the Customized Flash drive with a Blank one (same size) and run:
+sudo dd if=usb-image.iso of=/dev/sdb
+
+Voila!
+~Hal Pomeranz, Deer Run Associates
+
+Question, if my original USB is 2GB, and I would like the .iso to be replicated/created on a 4GB drive, is it possible?
+-Hypothetically Yes, If you have a larger USB drive, you can simply create a correctly sized partition on that drive and then copy your image to just that partition. thus:
+sudo dd if=/dev/sdb1 of=usb-Just-Partition.iso
+sudo dd if=usb-Just-Partition.iso of=/dev/sdb1
+
+(untested, but good luck)
+
+*************************************
+
+HULU & Youtube won't play. Says i need Adobe Flashplayer:
+
+the task is to put the "libflashplayer.so" in the "/usr/lib/firefox-3.0.10/plugins/" folder.
+So go to :
+http://get.adobe.com/flashplayer/
+
+download "Adobe Flash Player version 10.0.32.18"
+download the "tar.gz" file type choice.
+
+-Close FireFox.
+
+Right-click the file, extract the file. this will create a file called "libflashplayer.so".
+
+As ROOT, now copy this file to the firefox plugins folder:
+
+cp libflashplayer.so /usr/lib/firefox-3.0.10/plugins/libflashplayer.so
+
+i then ran this just in case:
+chmod 777 libflashplayer.so
+
+reopen firefox and now youtube flash should work!!
+
+jSG
+*******************************************
+
+Email through Telnet:
+
+batman11@suse11:~> telnet 192.168.1.156 25
+Trying 192.168.1.156...
+Connected to 192.168.1.156.
+Escape character is '^]'.
+220 wink2k3-156.cookiemonster.lan Microsoft ESMTP MAIL Service ready at Sun, 4 Mar 2012 13:05:29 -0500
+helo bluekid1
+250 wink2k3-156.cookiemonster.lan Hello [192.168.1.154]
+mail from:bigbaddy@bigdaddy25.com
+250 2.1.0 Sender OK
+rcpt to:bluekid1@swain-gant.com
+250 2.1.5 Recipient OK
+data
+354 Start mail input; end with <CRLF>.<CRLF>
+this is a test from telnet session. it is 1:11pm on sunday
+i dont know where teh subject line is
+.
+250 2.6.0 <cd1e63f2-da19-42b3-ac22-da50be6c2b0d> Queued mail for delivery
+quit
+221 2.0.0 Service closing transmission channel
+Connection closed by foreign host.
+
+
+***********************
+
+
+How to setup a basic iptable traffic redirect:
+
+(Run this to see whats running presently)
+suse11:/home/batman11 # iptables -t nat -L -v
+
+(then, turn on ip-forwarding)
+echo "1" > /proc/sys/net/ipv4/ip_forward
+
+
+(Redirect all incoming 3389 traffic from 154 to 126):
+iptables -t nat -A PREROUTING -s 0/0 -p tcp --dport 3389 -j DNAT --to-destination 192.168.1.126:3389
+iptables -t nat -A POSTROUTING -p tcp -m tcp -d 192.168.1.126 --dport 3389 -j SNAT --to-source 192.168.1.154
+
+
+(Redirect all incoming 443 traffic from 154 to 126):
+iptables -t nat -A PREROUTING -s 0/0 -p tcp --dport 443 -j DNAT --to-destination 192.168.1.126:443 
+iptables -t nat -A POSTROUTING -p tcp -m tcp -d 192.168.1.126 --dport 443 -j SNAT --to-source 192.168.1.154
+
+(Run this again to make sure it took):
+suse11:/home/batman11 # iptables -t nat -L -v
+
+
+source:
+http://www.google.com/url?q=http%3A%2F%2Fsuperuser.com%2Fquestions%2F443552%2Fiptables-port-mapping-from-two-pcs-to-one%2F443586%23443586&sa=D&sntz=1&usg=AFQjCNGonJ9DUKp9sHzbwS89R5bsfiGEaQ
+
+http://www.debuntu.org/how-to-redirecting-network-traffic-to-a-new-ip-using-iptables/
+
+
+All changes are Lost when the system reboots (not exactly a bad thing since its i don't know how to clear it out manually).
+*****************************************
+
+
+"OPHCRACK on Bootable USB:  No Tables Found!"
+
+---------------
+Dummy's Solution:
+Just put a copy of the '\tables'subdirectory on the Root of the Usb-drive ahead of time.
+(yeah.. ridiculous... i know)
+
+
+----------------------
+Higher-Intellect Solution:
+
+
+Boot from USB.
+launch terminal:
+
+su
+(root is pw)
+
+mkdir /mnt/jj
+
+fdisk -l
+
+(this will display a list of drives and partitions. it will show your harddrive (sda1, 2, etc). We don't want those.
+We want the USB drive (which on my computer is sdc1)
+
+mount -t iso9660 /mnt/sdc1/multiboot/isos/ophcrack36.iso /mnt/jj/ -o loop
+
+~so the Trick is to loop-mount the very ISO that Boots the Slitaz-Linux-instance in the first place.
+By design, the ISO has the "tables" directory at the root of the ISO image.
+Thus, when the ISO is mounted, the "tables" directory is now RIGHT at the root of /mnt/jj...
+and THATS why the tables are now found.
+
+now you can run:  ./launch.sh
+(it's going to check inside each subfolder in /mnt/* and look for a folder called "tables". Thats why it works :)
+
+------
+
+
+
+***********************
+Bonus:
+Howto add other Hash tables into the Instance:
+
+For bootable USB: Use the "dummies" solution.
+
+For a DVD solution:
+do a 'DATA' disc burn. The dvd will only have 1 object: a folder called "tables".
+inside this folder will be all the other HASH table subfolders.
+So, BOOT from the USB drive (and usual)... and hopefully you can access the stronger Hash-tables off the DVD :]
+
+To create an All-in-One bootable DVD:
+refer to the imgburn-boot-hack on batcave\wintoys dir.
+
+--
+
+outdated Bonus:
+download the other TABLES and create a soft-link to point them inside /mnt/kk/
+it "should" work...
+ln -sf /mnt/sdc1/whereever /mnt/kk/tables  (or somthing close)
+
+----------------------------------
