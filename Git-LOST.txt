@@ -65,8 +65,13 @@ Eyes Closed!!
 ~~~~~ troubleshot  ~~~~~~
 
 - 1
-to Un-Add a file:
+to REMOVE a file from your repo   ("cached" is the keyword:
 $ git rm --cached trash2.txt
+
+
+1 b:
+to REMOVE a file from your Local AND your Repo   ("cached" is the keyword:
+$ git rm trash2.txt
 
 
 - 2
