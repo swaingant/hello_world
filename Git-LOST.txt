@@ -48,29 +48,44 @@ Comprobando la conectividad… hecho.
 Eyes Closed!!
 
 620  cd hello_world/
-621  git remote -v
-622  ls -lh
+621  git remote -v      # shows me who i'm GIT'ing with lol
 
-623  git status
-624  nano Git-LOST.txt
-626  git status
-627  git add *
-628  git status
-629  git commit -m "Lets Go PUTAS"
-632  git push
-633  git status
+git status      # it will tell you 'All good'... but it COULD be Lying :]
+
+git fetch       # checks with your master branch/repo... and asks "Whats New?"
+
+git status      # NOW it will tell you what's REALLY new :]
+
+git pull        # Pulls down the 'new' files
+
+git status      # Now it will tell you 'All Good'
+
+
+624  nano Git-LOST.txt                  # make somes changes to this file, and be sure to SAVE
+
+626  git status                         # Should tell you "hey i see some changes"
+
+627  git add *                          # Basically you are flagging all changed files for a push
+
+628  git status                         # Should tell you "Ready to go"
+
+629  git commit -m "Lets Go PUTAS"      # or use  -a   if you want to be fancy
+
+632  git push                           
+
+633  git status                         # All Good :]
 
 ~http://rogerdudler.github.io/git-guide/http://rogerdudler.github.io/git-guide/
 
 ~~~~~ troubleshot  ~~~~~~
 
 - 1
-to REMOVE a file from your repo   ("cached" is the keyword:
+to REMOVE a file from your RePo   ("cached" is the keyword:
 $ git rm --cached trash2.txt
 
 
 1 b:
-to REMOVE a file from your Local AND your Repo   ("cached" is the keyword:
+to REMOVE a file from your LoCal AND your RePo   (NO "cached" is the keyword:
 $ git rm trash2.txt
 
 
