@@ -1,0 +1,107 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 5 (0x5)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=AF, ST=De-Nile, L=Wakanda, O=DEEZ NUTS, CN=DEEZ NUTS cn
+        Validity
+            Not Before: Nov 22 06:13:38 2018 GMT
+            Not After : Aug 18 06:13:38 2021 GMT
+        Subject: C=DZ, ST=PUGOPOLOUS, L=PUG CITY, O=ilovepugs.ltd, CN=pugass.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:b4:66:24:7c:20:1f:80:7e:af:33:dc:77:57:96:
+                    d7:eb:d8:9b:71:47:f6:80:c2:4c:4c:ce:1b:7f:1f:
+                    e7:4c:fc:1a:76:cc:26:b9:d1:20:d2:a6:d5:26:46:
+                    21:b9:a9:f5:97:4c:4e:92:ec:eb:c4:1d:8e:11:1e:
+                    58:b1:17:2e:ea:5e:26:84:eb:87:32:15:44:2d:97:
+                    c2:40:af:d6:2b:13:4d:03:ee:d7:7c:25:61:6c:e9:
+                    18:fa:69:cd:7d:ad:52:ae:c3:84:a3:18:cb:48:f6:
+                    88:10:18:4f:ac:08:c1:90:35:10:14:e9:4c:11:28:
+                    65:58:30:44:18:de:09:d0:b6:5c:0d:26:a6:86:b6:
+                    1a:98:95:7b:e1:14:f2:06:aa:45:9d:15:e9:5e:93:
+                    36:ca:bc:0a:b1:94:dd:b3:0e:0b:d1:60:14:6a:d4:
+                    43:0c:93:24:6a:bb:c7:69:78:84:36:f6:af:db:4c:
+                    79:56:b4:65:52:b9:b1:a1:40:7e:06:40:f5:81:91:
+                    f7:9b:37:12:cd:bb:f4:e7:8a:f2:3e:e9:2c:31:36:
+                    cb:64:69:50:04:94:3e:25:67:84:31:27:6b:7b:e7:
+                    79:bf:9b:dc:6b:eb:26:2d:d7:e1:fc:47:28:6a:e9:
+                    36:2b:03:1f:f8:2e:b5:2f:d4:f2:1c:7c:03:10:92:
+                    b5:41
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Subject Key Identifier: 
+                CD:79:A8:BF:B1:FE:16:EF:99:1B:A9:82:06:48:6A:65:6D:7D:02:35
+            X509v3 Authority Key Identifier: 
+                keyid:FE:17:75:F2:03:A8:4D:82:0A:C2:C3:7B:62:E3:01:3C:43:6A:D8:58
+
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Key Usage: 
+                Digital Signature, Key Encipherment
+            X509v3 Subject Alternative Name: 
+                DNS:pugass.com, DNS:www.example.com, DNS:mail.example.com, DNS:ftp.example.com, IP Address:127.0.0.1, IP Address:0:0:0:0:0:0:0:1
+            Netscape Comment: 
+                OpenSSL Generated Certificate
+    Signature Algorithm: sha256WithRSAEncryption
+         18:54:74:06:34:3d:1a:6e:6d:f3:4f:4d:5a:22:02:c0:1c:8d:
+         aa:a1:60:d7:0e:19:95:e6:f4:05:47:1f:d0:7e:bc:66:44:dd:
+         ff:85:df:da:c9:38:21:2e:cc:5f:bd:c9:cc:04:15:df:47:12:
+         6d:f1:14:db:f5:9d:91:9b:5e:df:ca:26:a0:52:54:37:6f:db:
+         16:47:86:89:20:b0:85:73:c7:47:4b:4c:44:f9:7c:5b:07:92:
+         a1:28:b9:62:f9:26:a5:e5:2e:85:9a:81:a7:7d:53:51:52:7d:
+         f7:d2:50:08:ae:70:2a:48:ae:4e:5c:ac:8b:8b:ab:10:e4:61:
+         8e:08:6f:bc:e6:49:0a:a0:04:07:73:91:cd:b5:84:77:77:bd:
+         68:dd:33:02:cd:1f:c9:ac:f9:5e:50:7b:68:89:6c:4a:61:32:
+         53:d9:45:e1:02:65:1f:fe:72:40:7e:70:db:17:9a:cc:86:27:
+         93:1b:c7:96:1e:b0:af:a7:f1:b3:e7:f1:48:f4:94:1b:6e:7b:
+         32:96:6d:df:30:1e:cb:7d:f6:b7:d2:ed:54:e9:48:ca:d3:5e:
+         12:fb:19:f4:63:06:be:63:12:23:80:af:6f:d8:7e:d3:b7:c7:
+         0c:dc:c7:e9:d1:92:80:ae:8e:d3:0b:bf:00:1b:82:e4:fe:7f:
+         f9:e8:f9:4c:fc:64:7c:88:fc:3d:d0:be:12:fa:42:3c:6c:e9:
+         10:49:10:fa:54:5b:37:3f:26:4e:73:3c:11:89:0b:38:0d:ea:
+         b6:70:ec:03:6c:f2:54:44:0c:3d:b6:42:44:53:23:db:42:6f:
+         2a:7b:0a:16:47:c5:41:7f:04:65:38:7f:c0:4a:ad:f2:76:b7:
+         b8:a8:a3:bc:fb:76:c8:29:8e:46:b0:c9:d6:82:41:81:44:ad:
+         ee:ee:f9:07:f2:d6:ad:5c:af:89:c9:87:83:dc:96:0e:a4:4d:
+         2e:00:e3:e7:37:d9:af:ae:67:a6:2b:fb:4b:7c:24:ef:4d:bb:
+         16:3f:4e:b9:4f:b3:97:7e:fa:7a:4b:50:db:df:32:6d:1d:b2:
+         4e:21:54:ba:37:be:dd:ee:8e:8e:e7:e6:5e:1f:4f:52:6c:cc:
+         e5:9e:f3:08:8b:1d:85:83:10:09:e7:11:8c:c1:fe:48:24:98:
+         3d:8c:04:e5:55:f0:ce:0e:61:8e:c9:7f:63:ed:81:51:8e:58:
+         89:94:92:9f:46:53:d8:60:ed:2a:b1:b0:45:13:84:c1:2e:cd:
+         5e:12:15:de:ee:a6:7e:68:77:05:25:a9:bb:1c:69:89:e4:61:
+         b0:4f:54:b3:6a:a3:c8:8b:31:63:38:a1:bc:69:f0:bc:22:7f:
+         34:8d:df:31:c2:7d:8e:3c
+-----BEGIN CERTIFICATE-----
+MIIFJjCCAw6gAwIBAgIBBTANBgkqhkiG9w0BAQsFADBcMQswCQYDVQQGEwJBRjEQ
+MA4GA1UECAwHRGUtTmlsZTEQMA4GA1UEBwwHV2FrYW5kYTESMBAGA1UECgwJREVF
+WiBOVVRTMRUwEwYDVQQDDAxERUVaIE5VVFMgY24wHhcNMTgxMTIyMDYxMzM4WhcN
+MjEwODE4MDYxMzM4WjBiMQswCQYDVQQGEwJEWjETMBEGA1UECAwKUFVHT1BPTE9V
+UzERMA8GA1UEBwwIUFVHIENJVFkxFjAUBgNVBAoMDWlsb3ZlcHVncy5sdGQxEzAR
+BgNVBAMMCnB1Z2Fzcy5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIB
+AQC0ZiR8IB+Afq8z3HdXltfr2JtxR/aAwkxMzht/H+dM/Bp2zCa50SDSptUmRiG5
+qfWXTE6S7OvEHY4RHlixFy7qXiaE64cyFUQtl8JAr9YrE00D7td8JWFs6Rj6ac19
+rVKuw4SjGMtI9ogQGE+sCMGQNRAU6UwRKGVYMEQY3gnQtlwNJqaGthqYlXvhFPIG
+qkWdFelekzbKvAqxlN2zDgvRYBRq1EMMkyRqu8dpeIQ29q/bTHlWtGVSubGhQH4G
+QPWBkfebNxLNu/TnivI+6SwxNstkaVAElD4lZ4QxJ2t753m/m9xr6yYt1+H8Ryhq
+6TYrAx/4LrUv1PIcfAMQkrVBAgMBAAGjgewwgekwHQYDVR0OBBYEFM15qL+x/hbv
+mRupggZIamVtfQI1MB8GA1UdIwQYMBaAFP4XdfIDqE2CCsLDe2LjATxDathYMAkG
+A1UdEwQCMAAwCwYDVR0PBAQDAgWgMGEGA1UdEQRaMFiCCnB1Z2Fzcy5jb22CD3d3
+dy5leGFtcGxlLmNvbYIQbWFpbC5leGFtcGxlLmNvbYIPZnRwLmV4YW1wbGUuY29t
+hwR/AAABhxAAAAAAAAAAAAAAAAAAAAABMCwGCWCGSAGG+EIBDQQfFh1PcGVuU1NM
+IEdlbmVyYXRlZCBDZXJ0aWZpY2F0ZTANBgkqhkiG9w0BAQsFAAOCAgEAGFR0BjQ9
+Gm5t809NWiICwByNqqFg1w4Zleb0BUcf0H68ZkTd/4Xf2sk4IS7MX73JzAQV30cS
+bfEU2/WdkZte38omoFJUN2/bFkeGiSCwhXPHR0tMRPl8WweSoSi5YvkmpeUuhZqB
+p31TUVJ999JQCK5wKkiuTlysi4urEORhjghvvOZJCqAEB3ORzbWEd3e9aN0zAs0f
+yaz5XlB7aIlsSmEyU9lF4QJlH/5yQH5w2xeazIYnkxvHlh6wr6fxs+fxSPSUG257
+MpZt3zAey332t9LtVOlIytNeEvsZ9GMGvmMSI4Cvb9h+07fHDNzH6dGSgK6O0wu/
+ABuC5P5/+ej5TPxkfIj8PdC+EvpCPGzpEEkQ+lRbNz8mTnM8EYkLOA3qtnDsA2zy
+VEQMPbZCRFMj20JvKnsKFkfFQX8EZTh/wEqt8na3uKijvPt2yCmORrDJ1oJBgUSt
+7u75B/LWrVyvicmHg9yWDqRNLgDj5zfZr65npiv7S3wk7027Fj9OuU+zl376ektQ
+298ybR2yTiFUuje+3e6OjufmXh9PUmzM5Z7zCIsdhYMQCecRjMH+SCSYPYwE5VXw
+zg5hjsl/Y+2BUY5YiZSSn0ZT2GDtKrGwRROEwS7NXhIV3u6mfmh3BSWpuxxpieRh
+sE9Us2qjyIsxYzihvGnwvCJ/NI3fMcJ9jjw=
+-----END CERTIFICATE-----
