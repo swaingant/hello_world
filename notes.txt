@@ -341,4 +341,4 @@ download the other TABLES and create a soft-link to point them inside /mnt/kk/
 it "should" work...
 ln -sf /mnt/sdc1/whereever /mnt/kk/tables  (or somthing close)
 
-----------------------------------
+---------------------------------
