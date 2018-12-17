@@ -212,8 +212,8 @@ jSG
 Email through Telnet:
 
 helo
-mail from:bigdaddy@secure-24.com>
-rcpt to:<pugasskid@swain-gant.com>
+mail from:bigdaddy@secure-24.com
+rcpt to:pugasskid@swain-gant.com
 data
 From: "BIG DADDY" <bigdaddy@secure-24.com>
 To: <user@company.com>
