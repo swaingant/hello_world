@@ -211,6 +211,19 @@ jSG
 
 Email through Telnet:
 
+helo
+mail from:bigdaddy@secure-24.com
+rcpt to:pugasskid@swain-gant.com
+data
+From: "BIG DADDY" <bigdaddy@secure-24.com>
+To: <user@company.com>
+Subject: Push-Through
+"this is the email Message body. not sure if the <> address-brackets are required..."
+.
+quit 
+
+----------------------------------------------
+2005:
 batman11@suse11:~> telnet 192.168.1.156 25
 Trying 192.168.1.156...
 Connected to 192.168.1.156.
@@ -328,4 +341,4 @@ download the other TABLES and create a soft-link to point them inside /mnt/kk/
 it "should" work...
 ln -sf /mnt/sdc1/whereever /mnt/kk/tables  (or somthing close)
 
-----------------------------------
+---------------------------------
