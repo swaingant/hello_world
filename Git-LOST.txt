@@ -89,6 +89,16 @@ to REMOVE a file from your LoCal AND your RePo   (NO "cached" is the keyword:
 $ git rm trash2.txt
 
 
+1 c:
+How to RESTORE a file that i accidentally deleted LOCALLY?
+
+-This shows you all the (local) deleted files.
+$ git ls-files --deleted 
+
+-This will restore the deleted file (back to your local).
+$ git checkout jboogey.txt
+
+
 - 2
 to Un-Add a Repo (i guess start over)
 

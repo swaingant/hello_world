@@ -1,0 +1,88 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 4 (0x4)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=AF, ST=WAKANDA, L=De-Nile, O=Intermediate DEEZ NUTS Inc, CN=DEEZ NUTS intermediate
+        Validity
+            Not Before: Nov 23 20:34:56 2018 GMT
+            Not After : Aug 19 20:34:56 2021 GMT
+        Subject: C=US, ST=Dog House, L=Daisy Hill, O=Peanuts INC, CN=snoopy.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:c6:69:ee:45:7f:30:86:2a:e8:22:11:05:ad:78:
+                    1c:30:60:f2:bb:b4:1e:e6:3e:6d:bf:9a:78:08:12:
+                    4c:3d:68:7f:ef:3b:28:4e:00:52:15:42:dc:47:9d:
+                    cd:66:5a:41:3f:02:2f:c5:d2:0e:29:3c:4b:6e:ba:
+                    85:50:81:ee:45:4e:a6:9a:71:6b:53:bf:a9:aa:98:
+                    d9:ea:d2:0f:3d:50:25:2e:8d:a8:7d:bb:d8:64:a9:
+                    45:8e:d4:2a:68:3e:36:cd:3e:48:75:47:db:c3:af:
+                    50:1b:9e:36:e3:05:d5:2b:92:cf:30:bb:92:ff:dc:
+                    d0:ee:5c:9e:77:be:0b:e7:06:92:ea:af:49:b9:d4:
+                    e4:e6:b3:3d:61:39:4f:9b:09:c4:22:7d:11:3c:97:
+                    cd:9d:2c:77:83:96:c5:56:02:fc:da:07:a8:aa:3e:
+                    0f:ef:25:fe:f8:61:5a:74:39:c8:61:d5:b6:97:d5:
+                    8a:3c:dd:68:3a:c8:94:09:ca:68:a8:0e:10:a2:bb:
+                    da:d7:01:69:44:34:2d:1a:3d:46:97:14:13:45:58:
+                    b3:96:ad:6a:f2:b3:b5:30:60:0a:8d:a5:ac:42:76:
+                    9d:cc:02:9f:bc:ce:5d:e1:15:a8:0c:42:cf:a2:b1:
+                    29:86:c7:53:8a:d7:b9:26:11:21:e9:b1:b6:68:b1:
+                    2a:33
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Subject Key Identifier: 
+                21:55:2F:D1:00:FB:C7:CF:82:0D:B3:3A:3C:66:30:51:1D:F6:7B:82
+            X509v3 Authority Key Identifier: 
+                keyid:4B:D6:E9:97:34:3F:D1:E9:18:1A:9C:D7:DC:1D:93:8C:A8:2F:1A:2C
+
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Key Usage: 
+                Digital Signature, Key Encipherment
+            X509v3 Subject Alternative Name: 
+                DNS:www.swain-gant.com, DNS:my.swain-gant.com, DNS:, DNS:, IP Address:127.0.0.1, IP Address:0:0:0:0:0:0:0:1
+            Netscape Comment: 
+                OpenSSL Generated Certificate
+    Signature Algorithm: sha256WithRSAEncryption
+         5c:61:9a:66:bb:48:13:1b:d6:ef:31:ca:97:1b:7e:5b:27:c8:
+         67:a6:a1:28:7d:d7:0b:4b:0d:95:53:21:b0:e5:21:fa:06:4b:
+         7c:8f:d5:e3:87:9a:a9:6e:a3:49:02:8a:40:ce:ae:32:79:bc:
+         d5:ca:ec:14:6d:30:68:76:db:88:d8:d5:15:6e:22:06:36:bd:
+         30:fc:a1:6b:70:cb:11:98:43:48:ed:0e:c2:4d:aa:b9:35:15:
+         98:aa:59:6a:53:b2:17:1d:6a:45:ca:26:09:67:2b:28:95:61:
+         ad:14:e4:e9:29:55:d5:bb:c0:51:81:54:9a:16:04:96:9d:53:
+         ff:67:5b:ea:38:cc:20:4e:8e:8f:6b:fc:8a:e1:bf:e0:2a:d0:
+         34:0d:f5:93:1e:12:e5:97:2f:1f:0c:75:41:81:fa:c3:ec:ef:
+         0e:b2:16:5e:4b:7c:a3:05:fb:4d:fa:15:6f:80:1e:3d:a3:d7:
+         c2:c4:6e:8a:6c:89:73:82:41:6c:c3:dd:8e:94:8f:e0:76:da:
+         83:1c:9a:9e:fb:d9:5c:eb:f2:c1:29:6e:39:4e:73:33:0c:1f:
+         0e:c8:6d:cd:b1:ac:a4:36:9b:78:95:55:b0:b3:a0:f5:cc:32:
+         b1:5b:b4:87:64:8d:4d:19:1e:f3:9f:2b:fc:ae:28:d5:c8:ab:
+         ab:df:09:13
+-----BEGIN CERTIFICATE-----
+MIIEKzCCAxOgAwIBAgIBBDANBgkqhkiG9w0BAQsFADB3MQswCQYDVQQGEwJBRjEQ
+MA4GA1UECAwHV0FLQU5EQTEQMA4GA1UEBwwHRGUtTmlsZTEjMCEGA1UECgwaSW50
+ZXJtZWRpYXRlIERFRVogTlVUUyBJbmMxHzAdBgNVBAMMFkRFRVogTlVUUyBpbnRl
+cm1lZGlhdGUwHhcNMTgxMTIzMjAzNDU2WhcNMjEwODE5MjAzNDU2WjBhMQswCQYD
+VQQGEwJVUzESMBAGA1UECAwJRG9nIEhvdXNlMRMwEQYDVQQHDApEYWlzeSBIaWxs
+MRQwEgYDVQQKDAtQZWFudXRzIElOQzETMBEGA1UEAwwKc25vb3B5LmNvbTCCASIw
+DQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMZp7kV/MIYq6CIRBa14HDBg8ru0
+HuY+bb+aeAgSTD1of+87KE4AUhVC3EedzWZaQT8CL8XSDik8S266hVCB7kVOpppx
+a1O/qaqY2erSDz1QJS6NqH272GSpRY7UKmg+Ns0+SHVH28OvUBueNuMF1SuSzzC7
+kv/c0O5cnne+C+cGkuqvSbnU5OazPWE5T5sJxCJ9ETyXzZ0sd4OWxVYC/NoHqKo+
+D+8l/vhhWnQ5yGHVtpfVijzdaDrIlAnKaKgOEKK72tcBaUQ0LRo9RpcUE0VYs5at
+avKztTBgCo2lrEJ2ncwCn7zOXeEVqAxCz6KxKYbHU4rXuSYRIemxtmixKjMCAwEA
+AaOB1zCB1DAdBgNVHQ4EFgQUIVUv0QD7x8+CDbM6PGYwUR32e4IwHwYDVR0jBBgw
+FoAUS9bplzQ/0ekYGpzX3B2TjKgvGiwwCQYDVR0TBAIwADALBgNVHQ8EBAMCBaAw
+TAYDVR0RBEUwQ4ISd3d3LnN3YWluLWdhbnQuY29tghFteS5zd2Fpbi1nYW50LmNv
+bYIAggCHBH8AAAGHEAAAAAAAAAAAAAAAAAAAAAEwLAYJYIZIAYb4QgENBB8WHU9w
+ZW5TU0wgR2VuZXJhdGVkIENlcnRpZmljYXRlMA0GCSqGSIb3DQEBCwUAA4IBAQBc
+YZpmu0gTG9bvMcqXG35bJ8hnpqEofdcLSw2VUyGw5SH6Bkt8j9Xjh5qpbqNJAopA
+zq4yebzVyuwUbTBodtuI2NUVbiIGNr0w/KFrcMsRmENI7Q7CTaq5NRWYqllqU7IX
+HWpFyiYJZysolWGtFOTpKVXVu8BRgVSaFgSWnVP/Z1vqOMwgTo6Pa/yK4b/gKtA0
+DfWTHhLlly8fDHVBgfrD7O8OshZeS3yjBftN+hVvgB49o9fCxG6KbIlzgkFsw92O
+lI/gdtqDHJqe+9lc6/LBKW45TnMzDB8OyG3NsaykNpt4lVWws6D1zDKxW7SHZI1N
+GR7znyv8rijVyKur3wkT
+-----END CERTIFICATE-----
